@@ -52,7 +52,7 @@ async function clocking() {
     currentDateEl.innerText = time.toLocaleDateString();
     const [timeString, meridian] = time.toLocaleTimeString().split(" ");
     timeEl.innerText = timeString;
-    meridianEl.innerText = meridian;
+    meridianEl.innerText = meridian || "";
     dayEl.innerText = time.toDateString().split(" ")[0];
   }, 1000);
 }
