@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.896);
+  color: honeydew;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#main-div {
+  width: 330px;
+  height: 600px;
+  margin: 5rem 0;
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+#header {
+  text-align: center;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+#display-div {
+  width: 100%;
+  height: 66%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#our-need {
+  font-size: 3rem;
+  /* position: relative; */
+}
+
+#meridian {
+  font-size: 1.3rem;
+  letter-spacing: 4px;
+}
+
+#counter {
+  font-size: 5rem;
+  text-align: center;
+}
+
+#running {
+  /* border: 1px solid; */
+  /* padding: 0 1rem; */
+  border-radius: 1rem;
+  /* background-color: rgb(2, 2, 2); */
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  gap: 1rem;
+}
+
+/* #stopwatch-controls{
+
+} */
+
+#counter-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  font-size: 2rem;
+}
+
+.controls {
+  padding: 10px 10px;
+  font-size: 1rem;
+  background-color: transparent;
+  color: honeydew;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#restart {
+  border: 2px solid rgba(207, 210, 2, 0.951);
+}
+#pause {
+  border: 2px solid rgba(5, 153, 233, 0.951);
+}
+
+#start {
+  padding: 10px 30px;
+  border: 3px solid rgba(2, 210, 2, 0.951);
+}
+
+#timer-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.timer-counter {
+  font-size: 4rem;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 1rem;
+  padding: 0 1rem;
+  display: flex;
+}
+
+#controls{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 0;
+}
+
+#input-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+
+.timer-inputs {
+  background-color: transparent;
+  color: honeydew;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 10px 10px;
+  width: 3rem;
+  font-size: 1rem;
+}
+
+#options-div {
+  display: flex;
+  gap: 22px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 300;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid; */
+}
+
+#options-div .icons {
+  font-size: 1.5rem;
+}
+
+#options-div .options {
+  cursor: pointer;
+}
